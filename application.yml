@@ -1,0 +1,23 @@
+spring:
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ecom
+    username: root
+    password: root
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: javabyshekher@gmail.com
+    password: utac wwhm ytlv mkeh
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
